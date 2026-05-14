@@ -15,6 +15,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Behaviors.Platform.Acts.SetVectorX,
 		C3.Plugins.Browser.Acts.Vibrate,
+		C3.Behaviors.Platform.Cnds.IsOnFloor,
 		C3.Behaviors.Platform.Acts.SetVectorY,
 		C3.Plugins.Touch.Cnds.OnTouchEnd,
 		C3.Plugins.System.Acts.SaveState,
@@ -23,7 +24,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.System.Acts.LoadState,
-		C3.Behaviors.Platform.Cnds.IsOnFloor,
 		C3.Plugins.Sprite.Acts.SetX
 	];
 };
